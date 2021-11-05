@@ -22,7 +22,7 @@ const [recipe, setRecipe] = useState({})
   return ( 
     <div>
     <h3>Current Recipe:</h3>
-      <button onClick={()=>setRecipe(elvenShield)}>Elven Shield Recipe</button>
+      <button onClick={()=>setRecipe(elvenShield)}>Elven Shield Recipe</button>&nbsp;&nbsp;&nbsp;
       <button onClick={()=>setRecipe(elvenSecondShield)}>Elven Second Shield Recipe</button>
       <ul>
       {Object.keys(recipe).map((material)=>(
